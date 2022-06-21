@@ -124,7 +124,7 @@ with open(file_to_save, "w") as txt_file:
         f"Largest County Vote Count: {largest_county_count:,}\n"
         f"Largest County Vote Percentage: {largest_county_percentage:.1f}%\n"
         f"-------------------------\n\n"
-        f"Candidate Votes:")
+        f"Candidate Votes:\n")
     print(largest_county_summary)
 
 
